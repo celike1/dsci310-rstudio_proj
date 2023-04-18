@@ -26,7 +26,7 @@ jobs:
           password: ${{ secrets.DOCKER_PASSWORD }}
           
     - name: Docker push
-      run: docker push ece01celik/dsci310-dockerfile-practice:latest
+      run: docker push ece01celik/dsci310-rstudio_proj:latest
 
 
       
